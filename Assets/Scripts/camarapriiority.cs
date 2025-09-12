@@ -3,12 +3,12 @@ using UnityEngine;
 
 public class camarapriiority : MonoBehaviour
 {
-    public CinemachineVirtualCamera currentCamera;
+    public CinemachineCamera currentCamera;
     void Start()
     {
         currentCamera.Priority++;
     }
-    public void UpdateCamera(CinemachineVirtualCamera target)
+    public void UpdateCamera(CinemachineCamera target)
     {
         currentCamera.Priority--;
         currentCamera = target;
