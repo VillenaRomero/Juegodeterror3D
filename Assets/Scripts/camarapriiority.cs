@@ -13,6 +13,6 @@ public class camarapriiority : MonoBehaviour
         currentCamera.Priority--;
         currentCamera = target;
         currentCamera.Priority++;
-        //currentCamera.Priority++;
+        currentCamera.Priority++;
     }
 }

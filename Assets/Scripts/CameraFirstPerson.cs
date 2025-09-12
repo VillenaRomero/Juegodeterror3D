@@ -7,8 +7,8 @@ public class CameraFirstPerson : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; // Oculta cursor
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked; // Oculta cursor
+       //Cursor.visible = false;
     }
 
     void Update()
